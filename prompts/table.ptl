@@ -1,0 +1,22 @@
+Create a React-based generic table and form component using Material-UI (MUI) with the following specifications:
+
+GenericTable Component:
+
+Accepts a REST endpoint and a structure object to define the fields and their properties.
+Displays data fetched from the endpoint in a MUI table.
+Supports actions: add, update, and delete records with corresponding icons.
+Shows toast notifications for success or failure of fetch, add, update, and delete operations.
+Formats date fields as "YYYY-MM-DD HH:mm
+" using dayjs.
+Displays field names and their data types in the table header.
+GenericForm Component:
+
+Used for adding or updating records.
+Dynamically generates form fields based on the structure object:
+Supports input types: string, int, boolean, date, text, JSON, properties, and choice fields.
+Uses DateTimePicker from MUI for date fields.
+Uses Ace Editor for text, JSON, and properties fields.
+Handles choice fields using MUI's TextField with select.
+Supports read-only fields, which are disabled from editing.
+Supports field validation (currently only "required").
+Prepopulates form fields with a default value if provided.

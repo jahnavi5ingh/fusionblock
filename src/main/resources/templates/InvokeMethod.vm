@@ -1,0 +1,4 @@
+public void run(String str){
+    System.out.println("${name} input: "+str);
+    ${code}
+}

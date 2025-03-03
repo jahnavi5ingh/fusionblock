@@ -1,0 +1,22 @@
+//this is 1 of the test cases
+
+
+
+//#START:1:JavaClass:f
+
+//#C{
+package com.sumit.testfile;
+
+
+//#C}
+
+
+//#{
+write a class named tester with 2 fields:
+string a, int b;
+write getter setter methods, tostring and hashcode using above fields.
+//#}
+
+//#END 1
+
+//end of 1 test case;

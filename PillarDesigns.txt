@@ -1,0 +1,7 @@
+PillarDesign1 - createsd circles and then extrudes them  4 circle is default
+SplinePillar2 - creates a simple helical pillar or tube
+pillarmaker - simply rotates a shape around z
+extrudepillar - simple extrusion with rotation
+loftpillar - creates pillar by lofting and rotating 10 times  - creates flat pillar at top twisted
+sweeppillar - - creates pillar by sweeping shape around a path - very hard to get flat top pillar - requires a body cut
+pillardecalled - creates a decalled pillar . pillar shape should have marked decal.

@@ -1,0 +1,163 @@
+Nodes:
+for loop - done
+save to file - done
+readfile - done
+prompt with context and sys prompt - done
+wiring  - done
+add prompt table and nice way to add edit prompts - done
+
+
+context - to do
+File context
+sql context
+dataset context
+
+Datasets
+    will have data sets.
+
+
+Experiments
+    - Basically experiment will be created from plan and can be run from an particualr node.
+    - each run of experiment generate an output that can will be saved in the database and analyzed later.
+
+
+priority:
+    on double click open to edit
+    test prompt and prompt template
+
+
+
+genrator context -> graph of node of change
+    wind back one step
+    wind back to last fork
+    elminate path
+
+
+attach planner
+    find free slot
+        slot : locaation, isfree?, health
+
+interface attacher
+interface movable atacker
+interface stationary atachker
+
+model: top, stem, botoom,
+
+guns  - shot gun, spiral rocket rocket move
+
+grapling hook, fly jump, slide, wall run
+fix animation
+Creativity gun.
+
+platforms: jumping platform, light weight, sticky, shaky, reduce health, increase health, weapon.
+floating platforms, up down platform,
+
+agent flow
+
+add personas to prompt
+
+10/13
+cut
+patch
+normal to surface
+divide polygon at z n levels
+divide polygon in nm parts on axis a,b
+generate points by equation
+design script
+action sequnce
+design sequence
+universe describe
+decision diagram
+grill design
+bridge designer
+
+
+test everything
+add support for patch
+add support for parameter component type
+parameter will be derived form parent component type called parameter
+and we can define as many parameters as we want to.
+
+add supoport
+ for randomizing points within a bounding box
+ offset polygon
+ circumscribed polygon
+ convex hull
+ boundry rectangle
+
+ pixalate
+ path to points
+ bezier curve from points
+ points on bezier curve
+ add point between two point indexa
+maximum inscribed circle
+random points around in radius"?
+scale points
+scalew polygon
+
+
+done -- add support for curves so we can add curves ands ave curves
+done -- we need to add ui for curve design
+done -- add button to start stop point editing, points line etc should be able to be mvoed around
+done -- add support for multi curve so when we go to curve editor we can add a multiline curve with all ponts on the curve movable
+done -- scalex scaley should be input on point editor
+done -- and we can click a point to say it is control point and control points are to be shown dark green
+
+done - tangent to curve is - create plane on curve create line straight form left to right throuigh origin then find line perpendicular to it through origin.
+done - add tangent plane at distance (x, tollerance) from point on curve
+done - add plane at tangent to surface or curve
+done for what we need - add support for advanced features for sweep, extrude, loft etc.
+
+draw multi curve support
+
+points will have a lot of properties such as force field, force vector, control point, amount of randomness etc.
+There will be regions for force field randomness etc.
+add attractors, forces, force fields, random ness
+we will add support for curve in ui and from there we can find points on curve
+add randomizer boxes and circles and regions so when giving to a generator it will randomize
+We need to create a world creator - start with rock and mountain creator
+we need to add distructuro so distructors will be bursh.
+a brush is defined as a path and a curve that define stroke - this will create solid brush
+a brush path is defined as a path where the bursh body will move
+need to add support for distructors so distructs are basically distructor brushes created as solids
+add suport for decal and add support for distrcution points and curves so distructions are applied to those points
+add support for creating skeltons skeltons are basically path combinations that define how the object looks
+we will also define point called as action point at action point some work or exansion is done
+so we can define a line and on line can add action point which define a curve or polygon perpendicular to path and can be used to generate objects
+we need to deine maker factories for rocks pillars etc.
+use colors for depth and impact and forces
+add a property editor so when we click on object we can open properties for it.
+we need to add a point editor that defines flow for that point
+
+add support for getting curve and lines from fusion 360
+create dedicated leaft editor
+add support for relief brush a relief brush will iterate over a path and then do something
+
+
+
+done -- add ability to mark the points and save markers markers will be tags
+done -- so there will be an input field called tag and then when tag button is clikked will addd tag to
+done -- the marked point
+done -- add ability to filter points in tags
+add a component creator node
+done -- add a node to save curve
+done -- add a node to save points
+
+done - add close curve buttonthat will add a close point int he path
+done - tag mark support oin mouse over
+done - surface sweep
+done - surface features
+
+add support torevolve around any axis
+
+custom code
+support pure node
+add predicate function
+add filter function
+add point generate function
+
+condition handler - done
+reverse points - done
+get points form tangent plane - done
+get points from curve - done
+get point from curve - done

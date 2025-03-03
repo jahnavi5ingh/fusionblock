@@ -1,0 +1,7 @@
+
+public java.util.Map handle(java.util.Map input){
+    System.out.println("${name} Handler! ");
+    java.util.Map output = new java.util.HashMap();
+    ${code}
+    return output;
+}

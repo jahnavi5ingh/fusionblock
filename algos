@@ -1,0 +1,27 @@
+public class TangentToCircle {
+
+    public static void main(String[] args) {
+        // Circle center and radius
+        Point2D.Double center = new Point2D.Double(2, 3);
+        double radius = 5;
+
+        // Point on the circle
+        Point2D.Double point = new Point2D.Double(7, 3);
+
+        // Calculate the tangent line
+        double dx = point.getX() - center.getX();
+        double dy = point.getY() - center.getY();
+
+        // Slope of the radius
+        double slopeRadius = dy / dx;
+
+        // Slope of the tangent (perpendicular to the radius)
+        double slopeTangent = -1 / slopeRadius;
+
+        // Equation of the tangent line: y = mx + b
+        double b = point.getY() - slopeTangent * point.getX();
+
+        System.out.println("Equation of the tangent line: y = " + slopeTangent + "x + " + b);
+    }
+}
+

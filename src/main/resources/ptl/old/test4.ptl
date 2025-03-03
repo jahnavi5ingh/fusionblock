@@ -1,0 +1,9 @@
+//#START:42:java("f",true,["a"]);
+//#C{
+//valid 42 context
+//#C}
+//#{
+//valid 42 prompt
+//#}
+//#END 42
+
